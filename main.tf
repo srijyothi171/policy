@@ -4,7 +4,7 @@ resource "aws_iam_role" "default"{
     path = var.path
 }
 resource "aws_iam_policy" "default" {
-    count = var.policy_count
+    
     name = var.name
     policy= var.policy
     
